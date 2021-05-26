@@ -1,7 +1,7 @@
 ### BASH ###
 _build_bash() {
-local VERSION="5.0"
-local PATCHVER="50"
+local VERSION="5.1"
+local PATCHVER="51"
 local FOLDER="bash-${VERSION}"
 local FILE="${FOLDER}.tar.gz"
 local URL="http://ftp.gnu.org/gnu/bash/${FILE}"
