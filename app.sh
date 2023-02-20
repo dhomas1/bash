@@ -1,4 +1,4 @@
-### BASH ###
+### BASH 5.2 ###
 _build_bash() {
 local VERSION="5.2.15"
 local FOLDER="bash-${VERSION}"
