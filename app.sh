@@ -6,7 +6,7 @@ local FILE="${FOLDER}.tar.gz"
 local URL="http://ftp.gnu.org/gnu/bash/${FILE}"
 
 _download_tgz "${FILE}" "${URL}" "${FOLDER}"
-for n in {001..042}; do
+for n in {001..015}; do
   if [[ ! -f "${PWD}/download/bash-${VERSION}-${n}.patch" ]]; then
     wget -O "${PWD}/download/bash-${VERSION}-${n}.patch" "http://ftp.gnu.org/gnu/bash/bash-5.2-patches/bash52-${n}"
   fi
